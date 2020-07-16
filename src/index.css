@@ -1,0 +1,44 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(21, 1, 41);
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-content: center;
+}
+
+.header-text {
+  color: white;
+}
+
+.button {
+  background: purple;
+  border: none;
+  border-bottom: 0.3rem solid darken(purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: 1.2rem;
+}
+
+.button--link {
+  background: darkkhaki;
+  border: none;
+  color: gray;
+  padding: 1.2rem;
+}
+
+.input {
+  background: darkblue;
+  border: none;
+  color: white;
+  border-bottom: 0.3rem solid darken(darkblue, 10%);
+  flex-grow: 1;
+  margin: 0 0 1.2rem 0;
+  padding: 1.2rem;
+}
